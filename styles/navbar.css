@@ -9,7 +9,6 @@ body {
     font-weight: 300;
     font-style: normal;
     background-image: url('../images/bluegreen.jpeg');
-    padding-bottom: 200%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -17,9 +16,9 @@ body {
 
 .nav {
   padding: 0% 10% 10%;
-  height: 70px;
+  padding-bottom: 0%;
   width: 100%;
-  background-color: transparent;
+  background-color: black;
   position: fixed;
   top:0;
 }
@@ -29,7 +28,6 @@ body {
 }
 
 .nav > .nav-header > .nav-title {
-  height: 70px;
   width: 100px;
   display: inline-block;
   font-size: xx-large;
