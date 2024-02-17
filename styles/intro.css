@@ -1,0 +1,36 @@
+
+.intro {
+  width: 80%;
+  top: 20%;
+  position: absolute;
+  left: 10%;
+  color: white;
+  font-size: 2rem;
+  overflow: hidden;
+  animation: animate 2s linear forwards;
+  padding-bottom: 50%;
+}
+.intro h1 { 
+  border-bottom: 5px solid white; 
+} 
+.intro h2 {  
+border-bottom: 2px solid white; 
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10% 10% 10% 10%;
+  margin-top: 50%; 
+}
+
+@media screen and (max-width: 600px) {
+  .intro {
+      position: relative; 
+      padding-bottom: 0;
+      margin-top: 10%;}
+  .row {
+      padding-top: 10%;
+      margin-top: 0; 
+  }
+}
