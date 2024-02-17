@@ -1,4 +1,5 @@
 .row {
+    background-color: white;
     display: flex;
     flex-wrap: wrap;
     padding: 70% 10% 10% 10%; 
@@ -6,8 +7,8 @@
 
 .column {
     flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
+    /* max-width: 25%; */
+    padding: 0 10px;
 }
 
 .column img {
