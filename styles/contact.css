@@ -1,4 +1,6 @@
 .contact {
+  display: flexbox;
+  gap: 10rem;
   margin-top: 12%;
   background-color: black;
   padding: 5% 10% 10%;
@@ -18,39 +20,9 @@
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-@media screen and (max-width: 600px) {
-  .contact {
-    margin-top: auto;
-    padding: 5% 10% 5%;   
-  }
-  .cnav-links {
-    float: none; 
-    text-align: center; 
-  }
-  .cnav-links > a {
-    display: inline-block; 
-    margin: 0 10px;
-    vertical-align: middle; 
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .contact {
-    margin-top: 25rem;
-    padding: 5% 10% 5%;   
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  .contact {
-    margin-top: 15rem;
-    padding: 5% 10% 5%;   
-  }
-}
-
 @media screen and (max-width: 400px) {
   .contact {
-    margin-top: 70rem; 
+    margin-top: 0rem; 
     padding: 5% 10% 5%; 
   }
   .cnav-links {
@@ -62,4 +34,4 @@
     margin: 0 10px; 
     vertical-align: middle; 
   }
-}
+} 
