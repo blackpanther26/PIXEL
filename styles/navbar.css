@@ -93,7 +93,7 @@ body {
     position: absolute;
     display: block;
     width: 100%;
-    background-color: transparent;
+    background-color: black;
     height: 0px;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
