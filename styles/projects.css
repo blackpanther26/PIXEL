@@ -1,38 +1,70 @@
 .row {
-    background-color:aqua;
+    background-color: aqua;
     display: flex;
     flex-wrap: wrap;
-    padding: 70% 10% 10% 10%; 
-}
-
-.column {
+    padding: 70% 10% 10% 10%;
+  }
+  
+  .column {
     flex: 25%;
-    /* max-width: 25%; */
     padding: 0 10px;
-}
-
-.column img {
+  }
+  
+  .column img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
-}
-
-@media screen and (max-width: 800px) {
+  }
+  
+  @media screen and (max-width: 800px) {
     .column {
-        flex: 50%;
-        max-width: 50%;
+      flex: 50%;
+      max-width: 50%;
     }
-}
-
-@media screen and (max-width: 600px) {
+  }
+  
+  @media screen and (max-width: 600px) {
     .column {
-        flex: 100%;
-        max-width: 100%;
+      flex: 100%;
+      max-width: 100%;
     }
-}
-
-@media screen and (max-width: 400px) {
+  }
+  
+  @media screen and (max-width: 400px) {
     .row {
-        padding-top: 10%;
+      padding-top: 10%;
     }
-}
+  }
+  
+  .projects {
+    text-align: center;
+  }
+  
+  .image {
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); 
+    color: white;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.5s;
+  }
+  
+  .image:hover .content {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .content:hover {
+    background-color: rgba(0, 0, 0, 0.5); 
+    visibility: visible;
+    opacity: 1;
+  }
