@@ -71,7 +71,6 @@ body {
   }
   .nav{
     padding: 0%;
-    width:400px;
   }
   .nav > .nav-btn > label {
     display: inline-block;
