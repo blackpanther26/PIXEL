@@ -5,7 +5,7 @@
   color: white;
 }
 .cnav-links > a {
-  display: inline-block;
+  display: inline;
   padding: 13px 10px 13px 10px;
   color: #efefef;
 }
@@ -63,7 +63,7 @@
     vertical-align: middle; 
   }
   .btm-footer{
-    flex-direction: column;
+
   }
 }
 
