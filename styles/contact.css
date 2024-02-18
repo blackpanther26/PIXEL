@@ -1,28 +1,33 @@
-.contact{
-    margin-top: 0%;
-    background-color: black;
-    padding: 10% 10% 10%;
-    color: white;
+.contact {
+  margin-top: 0%;
+  background-color: black;
+  padding: 5% 10% 10%;
+  color: white;
+}
+.left-section {
+  display: block;
+}
+.nav-links {
+  display: inline;
+  float: right;
+  font-size: 18px;
+}
+.nav-links > a {
+  display: inline-block;
+  padding: 13px 10px 13px 10px;
+  color: #efefef;
+}
+.nav-links > a > img {
+  width: 2rem; /* Adjust as needed */
+  height: 2 rem; /* Adjust as needed */
+  vertical-align: middle; /* Align icon vertically with the text */
+}
+.nav-links > a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+@media screen and (max-width: 600px) {
+  .contact{
+    margin-top: 24rem;
   }
-  .left-section{
-    display: block;
-  }
-  .nav-links {
-    display: inline;
-    float: right;
-    font-size: 18px;
-  }
-  .nav-links > a {
-    display: inline-block;
-    padding: 13px 10px 13px 10px;
-    color: #efefef;
-  }
-  .nav-links > a > img {
-    width:   2rem; /* Adjust as needed */
-    height:   2  rem; /* Adjust as needed */
-    vertical-align: middle; /* Align icon vertically with the text */
-  }
-  .nav-links > a:hover {
-    background-color: rgba(0, 0, 0, 0.3);
-  }
-  
+}
