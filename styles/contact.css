@@ -32,6 +32,9 @@
     margin: 0 10px;
     vertical-align: middle; 
   }
+  .btm-footer{
+    display: block !important;
+  }
 }
 
 @media screen and (max-width: 1000px) {
