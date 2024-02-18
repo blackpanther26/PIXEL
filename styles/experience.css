@@ -116,12 +116,18 @@ article {
     flex-direction: column;  
     margin-bottom: 2rem;
   }
+  #experience .details-container {
+    flex-direction: column;  
+    margin-bottom: 2rem;
+    padding-right: 0;
+    padding-left: 0;
+  }
 }
 
 @media screen and (max-width: 400px) {
-  /* #experience {
-    padding: 3% 1% 10%; 
-  } */
+  #experience {
+    padding: 3% 10% 10%; 
+  }
   #experience .about-containers {
     display:block;
   }
