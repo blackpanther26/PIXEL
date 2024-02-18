@@ -19,7 +19,7 @@ body {
   padding: 0% 10% 10%;
   padding-bottom: 0%;
   width: 100%;
-  background-color:transparent;
+  background-color:white;
   position: fixed;
   top:0;
   z-index: 1000000;
@@ -32,7 +32,7 @@ body {
 .nav > .nav-header > .nav-title {
   display: inline-block;
   font-size: xx-large;
-  color: #fff;
+  color: black;
   padding-left: 1rem;
 }
 
@@ -50,7 +50,7 @@ body {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   text-decoration: none;
-  color: #efefef;
+  color: black;
 }
 
 .nav > .nav-links > a:hover {
@@ -84,7 +84,7 @@ body {
     display: block;
     width: 25px;
     height: 10px;
-    border-top: 2px solid #eee;
+    border-top: 2px solid black;
   }
   .nav > .nav-links {
     position: absolute;
@@ -98,6 +98,7 @@ body {
     left: 0px;
   }
   .nav > .nav-links > a {
+    color: white;
     display: block;
     width: 100%;
   }
@@ -111,4 +112,7 @@ body {
   body{
     overflow-x: hidden
   }
+}
+.nav-links > a:target + #nav-check {
+  display: none;
 }

@@ -1,5 +1,5 @@
 .contact {
-  margin-top: 6%;
+  margin-top: 12%;
   background-color: black;
   padding: 5% 10% 10%;
   color: white;
@@ -7,33 +7,52 @@
 .left-section {
   display: block;
 }
-.nav-links {
+.cnav-links {
   display: inline;
   float: right;
-  font-size: 18px;
 }
-.nav-links > a {
+.cnav-links > a {
   display: inline-block;
   padding: 13px 10px 13px 10px;
   color: #efefef;
 }
-.nav-links > a > img {
-  width: 2rem; /* Adjust as needed */
-  height: 2 rem; /* Adjust as needed */
-  vertical-align: middle; /* Align icon vertically with the text */
+.cnav-links > a > img {
+  width: 3rem; 
+  height: 3rem; 
+  vertical-align: middle; 
 }
-.nav-links > a:hover {
+.cnav-links > a:hover {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
 @media screen and (max-width: 600px) {
-  .contact{
-    margin-top: 55rem;
+  .contact {
+    margin-top: auto;
+    padding: 5% 10% 5%;   
+  }
+  .cnav-links {
+    float: none; 
+    text-align: center; 
+  }
+  .cnav-links > a {
+    display: inline-block; 
+    margin: 0 10px;
+    vertical-align: middle; 
   }
 }
 
 @media screen and (max-width: 400px) {
-  .contact{
-    margin-top: 108rem;
+  .contact {
+    margin-top: 70rem; 
+    padding: 5% 10% 5%; 
+  }
+  .cnav-links {
+    float: none; 
+    text-align: center; 
+  }
+  .cnav-links > a {
+    display: inline-block; 
+    margin: 0 10px; 
+    vertical-align: middle; 
   }
 }

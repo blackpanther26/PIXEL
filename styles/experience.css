@@ -11,6 +11,7 @@ section {
 
 .section__text__p1 {
   text-align: center;
+  font-size: larger;
   color: aqua;
 }
 
@@ -93,8 +94,7 @@ article {
       display:block;
     }
     #experience .details-container {
-        display: block;
+      display: block;
       width: 100%;
-      padding-bottom:20rem;
   }
 }
