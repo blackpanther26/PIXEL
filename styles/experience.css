@@ -28,7 +28,6 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
-  display: flex;
   padding-bottom: 0;
 }
 
@@ -81,10 +80,21 @@ article {
 }
 
 @media screen and (max-width: 600px) {
-  .details-container {
+  #experience .details-container {
     flex-direction: column;  
     margin-bottom: 2rem;
     padding-right: 0;
     padding-left: 0;
+  }
+}
+
+@media screen and (max-width: 400px) {
+    #experience .about-containers {
+      display:block;
+    }
+    #experience .details-container {
+        display: block;
+      width: 100%;
+      padding-bottom:20rem;
   }
 }

@@ -9,6 +9,7 @@ body {
     font-weight: 300;
     font-style: normal;
     background-image: url('../images/bluegreen.jpeg');
+    background-blend-mode: darken;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -21,7 +22,7 @@ body {
   background-color:transparent;
   position: fixed;
   top:0;
-  z-index: 10000;
+  z-index: 100000;
 }
 
 .nav > .nav-header {
@@ -62,11 +63,18 @@ body {
 }
 
 @media (max-width: 600px) {
+  body{
+    width:400px;
+  }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
     right: 0px;
     top: 0px;
+  }
+  .nav{
+    padding: 0%;
+    width:400px;
   }
   .nav > .nav-btn > label {
     display: inline-block;

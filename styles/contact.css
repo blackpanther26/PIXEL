@@ -1,5 +1,5 @@
 .contact {
-  margin-top: 0%;
+  margin-top: 6%;
   background-color: black;
   padding: 5% 10% 10%;
   color: white;
@@ -28,6 +28,12 @@
 
 @media screen and (max-width: 600px) {
   .contact{
-    margin-top: 24rem;
+    margin-top: 55rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .contact{
+    margin-top: 108rem;
   }
 }
