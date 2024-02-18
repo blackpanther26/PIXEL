@@ -63,9 +63,6 @@ body {
 }
 
 @media (max-width: 600px) {
-  body{
-    width:400px;
-  }
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
