@@ -3,7 +3,7 @@
 }
 
 body {
-    margin: 0px;
+    margin: 0;
     font-family: "Poppins", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -65,8 +65,8 @@ body {
   .nav > .nav-btn {
     display: inline-block;
     position: absolute;
-    right: 0px;
-    top: 0px;
+    right: 0;
+    top: 0;
   }
   .nav{
     padding: 0%;
@@ -91,11 +91,11 @@ body {
     display: block;
     width: 100%;
     background-color: black;
-    height: 0px;
+    height: 0;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
     top: 50px;
-    left: 0px;
+    left: 0;
   }
   .nav > .nav-links > a {
     color: white;
@@ -103,7 +103,7 @@ body {
     width: 100%;
   }
   .nav > #nav-check:not(:checked) ~ .nav-links {
-    height: 0px;
+    height: 0;
   }
   .nav > #nav-check:checked ~ .nav-links {
     height: calc(100vh - 50px);

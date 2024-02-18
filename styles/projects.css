@@ -13,7 +13,7 @@
     width: 100%;
     height:21rem;
     object-fit: cover;
-    padding-bottom: 30px;
+    padding-bottom: 2rem;
     background-color: aqua;
     padding-right: 1rem;
     padding-bottom: 1rem;
@@ -66,8 +66,8 @@
     right: 0;
     background-color: rgba(0, 0, 0, 0.5); 
     color: aqua;
-    padding: 20px;
-    margin-bottom: 30px;
+    padding: 1.25rem;
+    margin-bottom: 2rem;
     visibility: hidden;
     opacity: 0;
     transition: opacity 0.5s;

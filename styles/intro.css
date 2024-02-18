@@ -71,7 +71,7 @@
   }
 }
 .nav-links:target {
-  height: 0px;
+  height: 0;
 }
 
 .nav-links > a:target {
