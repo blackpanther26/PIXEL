@@ -113,6 +113,3 @@ body {
     overflow-x: hidden
   }
 }
-.nav-links > a:target + #nav-check {
-  display: none;
-}
