@@ -50,7 +50,7 @@
 
 @media screen and (max-width: 400px) {
   .contact {
-    margin-top: 70rem; 
+    margin-top: 3rem; 
     padding: 5% 10% 5%; 
   }
   .cnav-links {
@@ -61,6 +61,9 @@
     display: inline-block; 
     margin: 0 10px; 
     vertical-align: middle; 
+  }
+  .btm-footer{
+    flex-direction: column;
   }
 }
 

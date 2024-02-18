@@ -73,9 +73,9 @@ body {
   }
   .nav > .nav-btn > label {
     display: inline-block;
-    padding-top:1rem ;
-    padding-right: 1rem;
+    padding:1rem ;
   }
+  
   .nav > .nav-btn > label:hover,
   .nav #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
