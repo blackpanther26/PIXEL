@@ -5,13 +5,30 @@
   left: 10%;
   color: white;
   overflow: hidden;
-  animation: animate 2s linear forwards;
   padding-bottom: 50%;
   text-align: center;
 }
 .intro h1 { 
   border-bottom: 5px solid white; 
 } 
+
+.typing-text {
+  border-bottom: 5px solid white;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 0;
+  animation: typing 4s steps(40) forwards;
+  margin: 0 auto; 
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
 .heading{
   color: aqua;
   margin-top: 80%; 
@@ -35,31 +52,4 @@
       padding-top: 10%;
       margin-top: 0; 
   }
-}
-.contact{
-  margin-top: 0%;
-  background-color: black;
-  padding: 10% 10% 10%;
-  color: white;
-}
-.left-section{
-  display: block;
-}
-.nav-links {
-  display: inline;
-  float: right;
-  font-size: 18px;
-}
-.nav-links > a {
-  display: inline-block;
-  padding: 13px 10px 13px 10px;
-  color: #efefef;
-}
-.nav-links > a > img {
-  width:   2rem; /* Adjust as needed */
-  height:   2  rem; /* Adjust as needed */
-  vertical-align: middle; /* Align icon vertically with the text */
-}
-.nav-links > a:hover {
-  background-color: rgba(0, 0, 0, 0.3);
 }
