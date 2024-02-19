@@ -1,85 +1,75 @@
 .row {
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .column {
-    flex: 25%;
-    padding: 0 0.8rem;
-  }
-  
-  .column img {
-    vertical-align: middle;
-    width: 100%;
-    height:21rem;
-    object-fit: cover;
-    padding-bottom: 2rem;
-    background-color: aqua;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
-    border-radius: 1rem;
-    margin-bottom: 2rem;
-  }
-/*   
-  @media screen and (max-width: 800px) {
-    .row {
-      padding-top: 80%;
-    }
-    .column {
-      flex: 50%;
-      max-width: 50%;
-    }
-  } */
-  @media screen and (max-width:1050px) {
-    .projects{
-      margin-top: 100%;
-    }
-  }
-  @media screen and (max-width: 600px) {
-    .column {
-      flex: 100%;
-      max-width: 100%;
-    }
-  }
-  
-  @media screen and (max-width: 400px) {
-    .row {
-      padding-top: 10%;
-    }
-    .column img{
-      height: 18rem;
-    }
-  }
-  
-  .projects {
-    text-align: center;
-  }
-  
-  .image {
-    position: relative;
-  }
-  
-  .content {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5); 
-    color: aqua;
-    padding: 1.25rem;
-    margin-bottom: 2rem;
-    visibility: hidden;
-    opacity: 0;
-    transition: opacity 0.5s;
-  }
-  
-  .image:hover .content {
-    visibility: visible;
-    opacity: 1;
-  }
+  display: flex;
+  flex-wrap: wrap;
+}
 
-  .content:hover {
-    background-color: rgba(0, 0, 0, 0.5); 
-    visibility: visible;
-    opacity: 1;
+.column {
+  flex: 25%;
+  padding: 0 10px;
+}
+
+.column img {
+  vertical-align: middle;
+  width: 100%;
+  height: 21rem;
+  object-fit: cover;
+  padding-bottom: 30px;
+  background-color: aqua;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+}
+@media screen and (max-width: 1050px) {
+  .projects {
+    margin-top: 100%;
   }
+}
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .row {
+    padding-top: 10%;
+  }
+  .column img {
+    height: 18rem;
+  }
+}
+
+.projects {
+  text-align: center;
+}
+
+.image {
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aqua;
+  padding: 20px;
+  margin-bottom: 30px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.image:hover .content {
+  visibility: visible;
+  opacity: 1;
+}
+
+.content:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+  visibility: visible;
+  opacity: 1;
+}
