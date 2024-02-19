@@ -48,7 +48,7 @@ body {
 
 .nav > .nav-links > a {
   display: inline-block;
-  padding: 1rem 0.9rem 1rem 0.9rem;
+  padding: 13px 10px 13px 10px;
   text-decoration: none;
   color: black;
 }
@@ -82,8 +82,8 @@ body {
   }
   .nav > .nav-btn > label > span {
     display: block;
-    width: 2rem;
-    height: 0.7rem;
+    width: 25px;
+    height: 10px;
     border-top: 2px solid black;
   }
   .nav > .nav-links {
@@ -94,7 +94,7 @@ body {
     height: 0;
     transition: all 0.3s ease-in;
     overflow-y: hidden;
-    top: 3.5rem;
+    top: 50px;
     left: 0;
   }
   .nav > .nav-links > a {
