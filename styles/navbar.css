@@ -75,9 +75,11 @@ body {
   }
   .nav > .nav-btn > label {
     display: inline-block;
-    padding:0.65rem ;
+    padding:1rem ;
   }
-  
+  .nav-title{
+    padding-top: 0%;
+  }
   .nav > .nav-btn > label:hover,
   .nav #nav-check:checked ~ .nav-btn > label {
     background-color: rgba(0, 0, 0, 0.3);
