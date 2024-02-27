@@ -109,6 +109,9 @@ article {
   #experience {
     padding: 3% 5% 10%; 
   }
+  #experience .details-container {
+    margin-bottom: 2rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
