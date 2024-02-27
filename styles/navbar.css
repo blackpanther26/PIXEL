@@ -77,8 +77,9 @@ body {
     display: inline-block;
     padding:1rem ;
   }
-  .nav-title{
-    padding-top: 0%;
+  .nav > .nav-header > .nav-title {
+    display: block;
+    text-align: center;
   }
   .nav > .nav-btn > label:hover,
   .nav #nav-check:checked ~ .nav-btn > label {
