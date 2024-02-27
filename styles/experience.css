@@ -81,25 +81,6 @@ article {
   gap: 0.5rem;
 }
 
-/* @media screen and (max-width: 600px) {
-  #experience .details-container {
-    flex-direction: column;  
-    margin-bottom: 2rem;
-    padding-right: 0;
-    padding-left: 0;
-  }
-}
-
-@media screen and (max-width: 400px) {
-    #experience .about-containers {
-      display:block;
-    }
-    #experience .details-container {
-      display: block;
-      width: 100%;
-  }
-} */
-
 #experience {
   height: auto; 
   padding: 3% 10% 0%;

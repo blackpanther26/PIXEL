@@ -8,12 +8,7 @@ body {
     font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
-    /* background-image: url('../images/bluegreen.jpeg'); */
     background-color: black;
-    /* background-blend-mode: darken;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;*/
   } 
 
 .nav {
